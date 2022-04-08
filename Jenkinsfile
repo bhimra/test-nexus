@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("Clone code from GitHub") {
             steps {
-                git 'https://github.com/bhimra/maven-hello-world.git'
+                git 'https://github.com/bhimra/test-nexus.git'
             }
         }
         stage("Maven Build") {
